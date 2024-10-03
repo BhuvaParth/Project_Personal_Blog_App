@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Cards() {
-  const [data, setData] = useState([]); 
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3000/cardData")
@@ -24,11 +24,16 @@ export default function Cards() {
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
+  const truncate = (text, maxLength) => {
+    if (!text || text.length <= maxLength) return text;
+    return text.slice(0, maxLength) + '...'; 
+  };
+
   return (
     <>
       {Array.isArray(data) && data.length > 0 ? (
         data.map((item, index) => (
-            <div key={index} className="w-full bg-transparent border-b border-gray-300 mt-4 p-4">
+          <div key={index} className="w-full bg-transparent border-b border-gray-300 mt-4 p-4">
             <div className="flex">
               <img
                 className="max-w-[150px] object-cover mr-4"
@@ -36,10 +41,11 @@ export default function Cards() {
                 alt={`Image for ${item.title}`}
               />
               <div className="p-4 w-full">
-                <h2 className="text-lg font-bold text-black">{item.title}</h2>
-                <p className="text-black">{item.description}</p>
+                <h2 className="text-lg font-bold text-black">{truncate(item.title, 80)}</h2>
+                <p className="text-black">{truncate(item.description, 250)}</p>
                 <Link
-                  to="about"
+                  to="/about"
+                  state={{ item }}
                   className="text-violet-600 hover:underline mt-2 inline-block"
                 >
                   Learn More
