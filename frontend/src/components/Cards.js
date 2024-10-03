@@ -31,13 +31,13 @@ export default function Cards() {
             <div key={index} className="w-full bg-transparent border-b border-gray-300 mt-4 p-4">
             <div className="flex">
               <img
-                className="w-6/6 object-cover mr-4"
+                className="max-w-[150px] object-cover mr-4"
                 src={item.image}
                 alt={`Image for ${item.title}`}
               />
               <div className="p-4 w-full">
                 <h2 className="text-lg font-bold text-black">{item.title}</h2>
-                <p className="text-black">{item.content}</p>
+                <p className="text-black">{item.description}</p>
                 <Link
                   to="about"
                   className="text-violet-600 hover:underline mt-2 inline-block"
