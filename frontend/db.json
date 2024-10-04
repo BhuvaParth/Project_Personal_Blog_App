@@ -1,28 +1,28 @@
 {
   "cardData": [
     {
-      "id": "c3cf",
+      "id": "7c2e",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/09/Fintech-Stage_ArticleImageHeader_TC24redesign_V1_4x3.png?resize=1280,960",
+      "title": "The complete Fintech Stage agenda",
+      "description": "In the crypto space, it’s time to scale. All signs point toward a period of growth with high market prices, a more favorable regulatory landscape and a large ecosystem of scaling solutions that work. So let’s talk with investors who have backed some of the most influential protocols, exchanges, and decentralized apps. What’s the next big thing and what has been the biggest surprise in their investment portfolio?"
+    },
+    {
+      "id": "d881",
       "image": "https://techcrunch.com/wp-content/uploads/2024/09/Space-Stage_ArticleImageHeader_TC_Disrupt2024_redesign_V1_4x3.png?resize=1280,960",
-      "title": "Space Space",
-      "description": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining esse"
+      "title": "The full Space Stage agenda at Disrupt 2024",
+      "description": "As the space industry accelerates, new opportunities proliferate for founders, investors and customers. Not only are the once-astronomical costs of doing business in orbit falling but so are the technical barriers to entry.\n\nMore stakeholders in space make for a lively, diverse and highly competitive environment crossing private and public markets — not to mention the fast-growing dual-use segment. Discover the challenges and possibilities waiting in orbit at Disrupt’s Space Stage, where you’ll hear from leaders across the industry.\n\n"
     },
     {
-      "id": "1037",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/09/Space-Stage_ArticleImageHeader_TC_Disrupt2024_redesign_V1_4x3.png?resize=1280,960",
-      "title": "asdasdasdasdasdsdasd",
-      "description": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essesimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining esse"
+      "id": "2971",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/09/PXL_20240909_184007006.PORTRAIT.jpg?resize=1280,960",
+      "title": "DOJ sentences pair for Apple repair scheme involving 6,000 knockoff iPhones",
+      "description": "The U.S. Department of Justice Thursday announced that it has sentenced a pair of Chinese citizens residing in Maryland following a massive bid to defraud Apple. According to the officials, the scheme involved sending more than 6,000 knockoff iPhones from Hong Kong to the company for repair. With the help of spoofed IMEI and serial numbers, the pair received the genuine article as a replacement.\n\nThe DOJ states that Haotian Sun and Pengfei Xue ultimately cost Apple more than $2.5 million. The men were sentenced to 57 and 54 months in prison, respectively. Xue was ordered to pay Apple nearly $400,000 in restitution, while Sun’s figure exceeded $1 million.\n\n"
     },
     {
-      "id": "a25a",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-1244428548.jpg",
-      "title": "ashdjkhaksjdhjkashdjksklajdhjkhsadjkhasdkljhaklsjdhjkalshdjklhsjkdhjksahdjkahsdjkhk",
-      "description": "sdasdasdasdsadasdasdasdasdasdasdasdasddsd"
-    },
-    {
-      "id": "5ada",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-1244428548.jpg",
-      "title": "setting 1500s, whetook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into",
-      "description": "dddsimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining esse"
+      "id": "57ae",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/09/cybersecurity-data-sharing-2024-v2.jpg?resize=1280,720",
+      "title": "Advanced persistent threat (APT)",
+      "description": "An advanced persistent threat (APT) is often categorized as a hacker, or group of hackers, which gains and maintains unauthorized access to a targeted system. The main aim of an APT intruder is to remain undetected for long periods of time, often to conduct espionage and surveillance, to steal data, or sabotage critical systems.\n\nAPTs are traditionally well-resourced hackers, including the funding to pay for their malicious campaigns, and access to hacking tools typically reserved by governments. As such, many of the long-running APT groups are associated with nation states, like China, Iran, North Korea, and Russia. In recent years, we’ve seen examples of non-nation state cybercriminal groups that are financially motivated (such as theft and money laundering) carrying out cyberattacks similar in terms of persistence and capabilities as some traditional government-backed APT groups.\n\n"
     }
   ]
 }

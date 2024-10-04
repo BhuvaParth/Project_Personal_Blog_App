@@ -26,27 +26,32 @@ export default function Cards() {
 
   const truncate = (text, maxLength) => {
     if (!text || text.length <= maxLength) return text;
-    return text.slice(0, maxLength) + '...'; 
+    return text.slice(0, maxLength) + "...";
   };
 
   return (
     <>
       {Array.isArray(data) && data.length > 0 ? (
         data.map((item, index) => (
-          <div key={index} className="w-full bg-transparent border-b border-gray-300 mt-4 p-4">
+          <div
+            key={index}
+            className="w-full bg-transparent border-b border-gray-300 mt-4 p-4"
+          >
             <div className="flex">
               <img
-                className="max-w-[150px] object-cover mr-4"
+                className="max-w-[200px] object-cover mr-4"
                 src={item.image}
                 alt={`Image for ${item.title}`}
               />
               <div className="p-4 w-full">
-                <h2 className="text-lg font-bold text-black">{truncate(item.title, 80)}</h2>
-                <p className="text-black">{truncate(item.description, 250)}</p>
+                <h2 className="text-2xl font-bold text-black">
+                  {truncate(item.title, 80)}
+                </h2>
+                <p className="text-lg text-black">{truncate(item.description, 250)}</p>
                 <Link
                   to="/about"
                   state={{ item }}
-                  className="text-violet-600 hover:underline mt-2 inline-block"
+                  className="text-xl text-violet-600 hover:underline mt-2 inline-block"
                 >
                   Learn More
                 </Link>
@@ -55,7 +60,9 @@ export default function Cards() {
           </div>
         ))
       ) : (
-        <p>Loading data...</p>
+        <div className="flex justify-center items-center h-[600px]">
+          <p className="text-2xl font-bold">No Data Found</p>
+        </div>
       )}
     </>
   );
