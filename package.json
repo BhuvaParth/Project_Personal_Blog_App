@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,5 +40,10 @@
   "devDependencies": {
     "json-server": "^1.0.0-beta.3",
     "tailwindcss": "^3.4.13"
-  }
+  },
+  "description": "The Blog App is a simple yet powerful application built using React.js and styled with Tailwind CSS. This project allows users to create, edit, delete, and view blog posts. The application utilizes JSON Server as a mock backend to handle data storage and retrieval.",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
