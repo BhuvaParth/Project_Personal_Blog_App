@@ -33,7 +33,6 @@ To get started with the Blog App, follow these steps:
 
   ### Go to Frontend folder and enter this commands
    #### Please Check must be your localhost:3001 for frontend
-   #### go to frontend folder and enter this command
 
   ``` bash
    npm install
