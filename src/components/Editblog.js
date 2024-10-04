@@ -33,7 +33,7 @@ export default function Editblog() {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    fetch(`http://localhost:3000/cardData/${formData.id}`, {
+    fetch(`https://project-personal-blog-app-parth-bhuvas-projects.vercel.app/api/recipes/cardData/${formData.id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',

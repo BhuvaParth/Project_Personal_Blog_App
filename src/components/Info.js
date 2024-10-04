@@ -11,7 +11,7 @@ export default function Info({ item }) {
 
   const handleDelete = () => {
     if (item && item.id) {
-      fetch(`http://localhost:3000/cardData/${item.id}`, {
+      fetch(`https://project-personal-blog-app-parth-bhuvas-projects.vercel.app/api/recipes/cardData/${item.id}`, {
         method: 'DELETE',
       })
       .then((response) => {
