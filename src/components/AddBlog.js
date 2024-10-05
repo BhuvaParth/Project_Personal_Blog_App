@@ -53,7 +53,7 @@ export default function AddBlog() {
     e.preventDefault();
     if (validateForm()) {
       try {
-        const response = await fetch("https://project-personal-blog-app.vercel.app/api/blogs", {
+        const response = await fetch("http://localhost:3000/cardData", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
