@@ -5,7 +5,7 @@ export default function Cards() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("https://project-personal-blog-app-parth-bhuvas-projects.vercel.app/api/recipes/cardData")
+    fetch("https://project-personal-blog-app.vercel.app/api/recipescardData")
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
