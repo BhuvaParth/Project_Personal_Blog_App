@@ -33,7 +33,7 @@ export default function Editblog() {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    fetch(`https://project-personal-blog-app.vercel.app/api/recipescardData/${formData.id}`, {
+    fetch(`https://project-personal-blog-app.vercel.app/api/recipes/cardData/${formData.id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',

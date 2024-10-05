@@ -53,7 +53,7 @@ export default function AddBlog() {
     e.preventDefault();
     if (validateForm()) {
       try {
-        const response = await fetch("https://project-personal-blog-app.vercel.app/api/recipescardData", {
+        const response = await fetch("https://project-personal-blog-app.vercel.app/api/recipes/cardData", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
